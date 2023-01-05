@@ -26,4 +26,4 @@
 //       };
 
 export * from './utils/test';
-export * from './views/test';
+export { default as TestView } from './views/test';

@@ -2,7 +2,7 @@
  * @Author: Ronny Wu
  * @Date: 2023-01-04 17:15:54
  * @LastEditors: Ronny Wu
- * @LastEditTime: 2023-01-05 10:03:43
+ * @LastEditTime: 2023-01-05 13:52:21
 -->
 # riddick-react-native
 
@@ -46,3 +46,6 @@ Made with [create-react-native-library](https://github.com/callstack/react-nativ
 
 ### 方法三：使用 package.json 的 files 字段选择发布哪些文件
 在 package.json 中 files 字段设置发布哪些文件或目录。这个优先级高于 .npmignore和 .gitignore
+
+## 添加编译后src文件源代码
+在 package.json 中 files 字段前添加 "react-native": "src/index", "source": "src/index",
