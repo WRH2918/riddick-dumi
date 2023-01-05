@@ -5,6 +5,7 @@
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
+  "source": "src/index",
   "files": [
     "!src",
     "lib",
@@ -126,8 +127,7 @@
           "tabWidth": 2,
           "trailingComma": "es5",
           "useTabs": false,
-          "endOfLine": "auto",
-          "react/react-in-jsx-scope": "off"
+          "endOfLine": "auto"
         }
       ]
     }
