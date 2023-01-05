@@ -128,7 +128,8 @@
           "tabWidth": 2,
           "trailingComma": "es5",
           "useTabs": false,
-          "endOfLine": "auto"
+          "endOfLine": "auto",
+          "react/react-in-jsx-scope": "off"
         }
       ]
     }
