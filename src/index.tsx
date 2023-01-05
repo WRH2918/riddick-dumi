@@ -26,3 +26,4 @@
 //       };
 
 export * from './utils/test';
+export * from './views/test';
