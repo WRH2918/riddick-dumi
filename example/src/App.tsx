@@ -2,12 +2,12 @@
  * @Author: Ronny Wu
  * @Date: 2023-01-04 17:15:54
  * @LastEditors: Ronny Wu
- * @LastEditTime: 2023-01-05 14:07:58
+ * @LastEditTime: 2023-01-06 10:35:01
  */
 import * as React from 'react';
 
 import { StyleSheet, Text, View } from 'react-native';
-import { test, getWindow, TestView } from 'riddick-react-native';
+import { test, getWindow } from 'riddick-react-native';
 
 export default function App() {
   React.useEffect(() => {
@@ -20,7 +20,6 @@ export default function App() {
       {/* <RiddickReactNativeView color="#32a852" style={styles.box} /> */}
       <View>
         <Text>{getWindow().height}</Text>
-        <TestView />
       </View>
     </View>
   );
