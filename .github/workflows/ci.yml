@@ -65,7 +65,7 @@ jobs:
         - name: Build Project
           run: |
             yarn install
-            yarn run build
+            yarn run docs:build
 
         # 部署到github
         - name: Deploy to Github
