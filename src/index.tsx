@@ -27,3 +27,4 @@
 
 export * from './utils/test';
 export { default as RDButton } from './RDButton';
+export { default as RNTextInput } from './Input/RNTextInput';
