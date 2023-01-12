@@ -11,7 +11,8 @@ export default () => <RNTextInput />;
 
 ```tsx
 import React from 'react';
-import { RNText } from 'riddick-react-native';
+import { RNTextInput2 } from 'riddick-react-native';
 
-export default () => <RNText />;
+export default () => <RNTextInput2 />;
 ```
+

@@ -7,7 +7,7 @@ import {
   View,
 } from 'react-native';
 
-const RNText = () => {
+const RNTextInput2 = () => {
   const animatedValue = useRef(new Animated.Value(0)).current;
 
   const startAnimate = () => {
@@ -39,4 +39,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default RNText;
+export default RNTextInput2;
