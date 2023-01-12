@@ -64,7 +64,7 @@ jobs:
         # 打包代码
         - name: Build Project
           run: |
-            yarn
+            yarn install
             yarn run build
 
         # 部署到github
