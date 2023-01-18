@@ -7,12 +7,17 @@ export interface Props {
    * @default
    */
   backgroundColor?: string;
+  /**
+   * @description 文本
+   * @default
+   */
+  text?: string;
 }
 
-const RDButton: FC<Props> = ({ backgroundColor = '#FF0' }) => {
+const RDButton: FC<Props> = ({ backgroundColor = '#FF0', text = 'button' }) => {
   return (
     <TouchableOpacity style={[styles.container, { backgroundColor }]}>
-      <Text>button</Text>
+      <Text>{text}</Text>
     </TouchableOpacity>
   );
 };
