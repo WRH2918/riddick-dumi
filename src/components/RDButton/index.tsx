@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 
-export interface Props { 
+export interface Props {
   /**
    * @description 背景颜色
    * @default
