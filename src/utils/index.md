@@ -1,3 +1,11 @@
+---
+group:
+  title: 工具类
+  path: /utils
+nav:
+  title: 工具类
+  order: 3
+---
 ## 工具类
 
 ```tsx | pure

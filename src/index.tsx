@@ -26,6 +26,6 @@
 //       };
 
 export * from './utils/test';
-export { default as RDButton } from './RDButton';
-export { default as RNTextInput } from './Input/RNTextInput';
-export { default as RNTextInput2 } from './Input/RNText';
+export { default as RDButton } from './components/RDButton';
+export { default as RNTextInput } from './components/Input/RNTextInput';
+export { default as RNTextInput2 } from './components/Input/RNText';

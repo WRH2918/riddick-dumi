@@ -1,9 +1,17 @@
-import React from 'react';
+import React, { FC } from 'react';
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 
-const RDButton = () => {
+export interface Props { 
+  /**
+   * @description 背景颜色
+   * @default
+   */
+  backgroundColor?: string;
+}
+
+const RDButton: FC<Props> = ({ backgroundColor = '#FF0' }) => {
   return (
-    <TouchableOpacity style={styles.container}>
+    <TouchableOpacity style={[styles.container, { backgroundColor }]}>
       <Text>button</Text>
     </TouchableOpacity>
   );

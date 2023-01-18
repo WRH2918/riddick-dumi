@@ -7,7 +7,7 @@
 import * as React from 'react';
 
 import { StyleSheet, Text, View } from 'react-native';
-import { test, getWindow, RNTextInput } from 'riddick-react-native';
+import { test, getWindow, RNTextInput, RDButton } from 'riddick-react-native';
 
 export default function App() {
   React.useEffect(() => {
@@ -21,6 +21,7 @@ export default function App() {
       <View>
         <Text>{getWindow().height}</Text>
         <RNTextInput />
+        <RDButton backgroundColor="blue" />
       </View>
     </View>
   );

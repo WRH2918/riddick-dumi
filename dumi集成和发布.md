@@ -1,6 +1,7 @@
 ## dumi version 1.1.0
 
 集成 dumi https://www.jianshu.com/p/67fc0a587c62
+https://juejin.cn/post/6919044146095357959
 
 # dumi集成
 ## 1.dumi 依赖
